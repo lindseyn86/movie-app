@@ -32,7 +32,35 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+/*movie styling*/
+.movie {
+
+  padding: 3% 30%;
+
+  img {
+    width: 300px;
+    float:left; 
+  }
+
+  /*review styling*/
+  .stars {
+    span {
+      font-size: 32px;
+    }
+  }
+
+  form {
+    input, textarea {
+      margin-bottom: 1em;
+      width: 300px;
+      padding: 1rem;
+    }
+  }
+}
+
